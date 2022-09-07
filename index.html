@@ -7,37 +7,50 @@
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- basic buttons -->
-
-    <h2>Buttons</h2>
-    <button class="btn btn-primary">primary button</button>
-    <button class="btn btn-secondary">secondary button</button>
-
-    <!-- anchor tags as buttons -->
-    <h2>Links as Buttons</h2>
-    <a href="#" class="btn btn-info">info anchor tag</a>
-    <a href="#" class="btn btn-success">success anchor tag</a>
-
-    <!-- button sizes -->
-    <h2>Button sizes</h2>
-    <button class="btn btn-lg btn-danger">large danger button</button>
-    <button class="btn btn-sm btn-warning">small warning button</button>
-
-    <!-- outlined styles -->
-    <h2>Button Styles</h2>
-    <button class="btn btn-outline-primary">outlined primary button</button>
-    <button class="btn btn-outline-secondary btn-lg">
-      large outlined secondary button
-    </button>
-
-    <!-- button groups -->
-    <h2>Button Groups</h2>
-    <div class="btn-group">
-      <a href="#" class="btn btn-primary">button 1</a>
-      <a href="#" class="btn btn-warning">button 2</a>
-      <a href="#" class="btn btn-success">button 3</a>
-      <a href="#" class="btn btn-info">button 4</a>
+    <!-- margin and padding -->
+    <!-- in bootstrap margin and padding have 5 stage from 1 - 5 it represent small margin to huge -->
+    <div class="bg-primary m-1 p-5">small margin and padding</div>
+    <div class="bg-primary m-2 p-2">small margin and padding</div>
+    <div class="bg-primary my-3 px-4">
+      margin in y direction and padding x direction
     </div>
+    <!-- in bootstrap margin-left = ms short for margin-start and margin-right = me short for margin-end same as padding. -->
+    <div class="bg-primary mt-3 mb-4 ms-2 me-4 ps-5 pt-4 pe-3 pb-5">
+      m & p for each direction with diffrent values
+    </div>
+
+    <!-- borders -->
+    <div class="m-3 p-3 border">default border</div>
+    <div class="m-3 p-3 border-top border-end">individual border</div>
+    <div class="m-3 p-3 border-start border-success">
+      border success at start
+    </div>
+    <div class="m-3 p-3 border-start border-danger border-5">
+      thicker border
+    </div>
+    <div class="m-3 p-3 rounded border border-danger border-5">
+      rounded danger border
+    </div>
+    <div class="m-3 p-3 rounded-pill border border-danger border-5">
+      rounded pill corners danger border
+    </div>
+    <div class="m-3 p-3 rounded-pill bg-primary">
+      rounded pill corners primary-bg no-border
+    </div>
+
+    <!-- box shadow -->
+    <div class="m-3 p-3 shadow-sm">element with small box-shadow</div>
+    <div class="m-3 p-3 shadow">element with medium box-shadow</div>
+    <div class="m-3 p-3 shadow-lg">element with large box-shadow</div>
+
+    <!-- font weight -->
+    <p class="fw-bold">bold text</p>
+    <p class="fw-bolder">bolder text</p>
+    <p>normal text</p>
+    <p class="fw-light">light text</p>
+    <p class="fw-lighter">lighter text</p>
+    <p class="fst-italic">italic text</p>
+    <p class="fst-italic fw-lighter">lighter italic text</p>
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
