@@ -7,50 +7,38 @@
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- margin and padding -->
-    <!-- in bootstrap margin and padding have 5 stage from 1 - 5 it represent small margin to huge -->
-    <div class="bg-primary m-1 p-5">small margin and padding</div>
-    <div class="bg-primary m-2 p-2">small margin and padding</div>
-    <div class="bg-primary my-3 px-4">
-      margin in y direction and padding x direction
-    </div>
-    <!-- in bootstrap margin-left = ms short for margin-start and margin-right = me short for margin-end same as padding. -->
-    <div class="bg-primary mt-3 mb-4 ms-2 me-4 ps-5 pt-4 pe-3 pb-5">
-      m & p for each direction with diffrent values
-    </div>
-
-    <!-- borders -->
-    <div class="m-3 p-3 border">default border</div>
-    <div class="m-3 p-3 border-top border-end">individual border</div>
-    <div class="m-3 p-3 border-start border-success">
-      border success at start
-    </div>
-    <div class="m-3 p-3 border-start border-danger border-5">
-      thicker border
-    </div>
-    <div class="m-3 p-3 rounded border border-danger border-5">
-      rounded danger border
-    </div>
-    <div class="m-3 p-3 rounded-pill border border-danger border-5">
-      rounded pill corners danger border
-    </div>
-    <div class="m-3 p-3 rounded-pill bg-primary">
-      rounded pill corners primary-bg no-border
+    <!-- normal container same as sm container max-width=100% until screen width up to 576px-->
+    <div class="container">
+      <h2>Normal container</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        earum praesentium assumenda. Ex distinctio hic exercitationem facilis,
+        impedit aliquam saepe accusantium beatae cumque dicta doloribus
+        explicabo numquam eos quisquam expedita.
+      </p>
     </div>
 
-    <!-- box shadow -->
-    <div class="m-3 p-3 shadow-sm">element with small box-shadow</div>
-    <div class="m-3 p-3 shadow">element with medium box-shadow</div>
-    <div class="m-3 p-3 shadow-lg">element with large box-shadow</div>
+    <!-- container-lg max-width=100% until screen width up to 992px -->
+    <div class="container-lg">
+      <h2>large container</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        earum praesentium assumenda. Ex distinctio hic exercitationem facilis,
+        impedit aliquam saepe accusantium beatae cumque dicta doloribus
+        explicabo numquam eos quisquam expedita.
+      </p>
+    </div>
 
-    <!-- font weight -->
-    <p class="fw-bold">bold text</p>
-    <p class="fw-bolder">bolder text</p>
-    <p>normal text</p>
-    <p class="fw-light">light text</p>
-    <p class="fw-lighter">lighter text</p>
-    <p class="fst-italic">italic text</p>
-    <p class="fst-italic fw-lighter">lighter italic text</p>
+    <!-- container-fluid max-width=100% all the time -->
+    <div class="container-fluid">
+      <h2>fluid container</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        earum praesentium assumenda. Ex distinctio hic exercitationem facilis,
+        impedit aliquam saepe accusantium beatae cumque dicta doloribus
+        explicabo numquam eos quisquam expedita.
+      </p>
+    </div>
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
